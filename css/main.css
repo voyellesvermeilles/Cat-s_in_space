@@ -1,0 +1,91 @@
+body {
+  background: rgb(0,0,0);
+  color: rgb(255,255,0);
+}
+
+header {
+  background: rgb(255,255,0);
+  color:  rgb(0,0,0);
+  border-bottom: 4px solid rgb(0,0,0);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+
+}
+
+.galerie ul {
+  background: rgb(255, 255, 255);
+  display: flex;
+
+}
+
+nav ul {
+  list-style-type: none;
+  /*permet d'enlever les points d'une liste*/
+  display: flex;
+
+}
+
+nav a {
+  color: rgb(0, 0, 0);
+  font-size: 2em;
+  text-transform: uppercase;
+  border: 1px solid rgb(0, 0, 0);
+  padding: 1em;
+  border-radius: 4px;
+}
+
+
+
+
+
+section {
+  min-height: 90vh;
+  /*vh : viewport, correspond à ce que l'utilisateur est capable
+  de voir en plein ecran*/
+}
+
+.identity {
+  background-color: grey;
+}
+
+
+#why {
+  background: pink;
+  color: purple;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.section-conteneur{
+  box-shadow: 10px 65px 53px 40px rgba(204,37,204,1);
+  max-width: 800px;
+  /*permet de donner une taille maximum à une image ou texte sans un minimum
+  et permet de rendre des choses responsives*/
+  padding: 60px;
+  text-align: center;
+}
+
+.gallery-conteneur{
+  border: 12px solid;
+  padding: 26px;
+  /* faire un commentaire en css */
+  /* padding = marges interieures */
+  overflow-y: scroll;
+}
+
+figure {
+  border: 3em solid turquoise;
+  max-width: 960px;
+  margin-left: auto;
+  margin-right: auto;
+  /*permet de center avec margin auto left et right*/
+
+}
+
+figure img {
+  width: 100%;
+}
